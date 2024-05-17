@@ -21,6 +21,10 @@ profile][].
 - **[FlexASIO][]**, a universal [ASIO][] driver _(C++, Windows, audio)_
   - By far the project I'm most known for, with 1k+ GitHub stars and a Wikipedia
     mention.
+- **[ASIO401][]**, an [ASIO][] driver for the [QA403][] industrial-grade audio
+  analyzer and earlier versions _(C++, Windows, USB, audio)_
+  - Directly implementing a bespoke USB protocol using [WinUSB][].
+  - Developed with the support and [blessing][] of the manufacturer.
 - **[videojitter][]**, a physical light-based video frame presentation timing
   measurement system _(Python, video, signal processing)_
   - The first tool of its kind, as far as I'm aware.
@@ -41,10 +45,6 @@ profile][].
 - **[WindowInvestigator][]**, a set of Windows window management introspection
   tools _(C, Windows)_
   - I wrote these to help with the investigation that led to RudeWindowFixer.
-- **[ASIO401][]**, an [ASIO][] driver for the [QA401][] industrial-grade audio
-  analyzer _(C++, Windows, USB, audio)_
-  - Directly implementing a bespoke USB protocol using [WinUSB][].
-  - Developed with the support and [blessing][] of the manufacturer.
 - **[WinSoftVol][]**, a Windows driver to force software volume control _(C,
   Windows, kernel-mode driver)_
   - My first foray into Windows driver development.
@@ -113,7 +113,7 @@ profile][].
 [laplock]: https://github.com/dechamps/laplock
 [LGTVDeviceListener]: https://github.com/dechamps/LGTVDeviceListener
 [Loudspeaker explorer]: https://github.com/dechamps/LoudspeakerExplorer
-[QA401]: https://quantasylum.com/products/qa401-audio-analyzer
+[QA403]: https://quantasylum.com/products/qa403-audio-analyzer
 [RudeWindowFixer]: https://github.com/dechamps/RudeWindowFixer
 [tinc]: https://github.com/gsliepen/tinc/issues?q=author%3Adechamps
 [videojitter]: https://github.com/dechamps/videojitter
