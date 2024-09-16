@@ -28,6 +28,8 @@ profile][].
 - **[videojitter][]**, a physical light-based video frame presentation timing
   measurement system _(Python, video, signal processing)_
   - The first tool of its kind, as far as I'm aware.
+- **[transmission_delete_unwanted][]**, a tool for removing files from
+  Transmission torrents _(Python)_
 
 ## Inactive projects
 
@@ -116,6 +118,8 @@ profile][].
 [QA403]: https://quantasylum.com/products/qa403-audio-analyzer
 [RudeWindowFixer]: https://github.com/dechamps/RudeWindowFixer
 [tinc]: https://github.com/gsliepen/tinc/issues?q=author%3Adechamps
+[transmission_delete_unwanted]:
+  https://github.com/dechamps/transmission_delete_unwanted
 [videojitter]: https://github.com/dechamps/videojitter
 [OVH]: https://www.ovhcloud.com/
 [WinSoftVol]: https://github.com/dechamps/WinSoftVol
